@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sheikh Bhai Clothing — modern premium clothing in New Delhi.">
+    <title>Sheikh Bhai Clothing | Style That Speaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+    <div class="logo">SHEIKH <span>BHAI</span></div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#products">New Arrivals</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#store">Store</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="cart" onclick="openCart()">🛍️</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <small>WELCOME TO SHEIKH BHAI CLOTHING</small>
+
+        <h1>
+            STYLE<br>
+            THAT <span>SPEAKS.</span>
+        </h1>
+
+        <p>
+            Discover modern fashion, premium styles and timeless looks
+            designed to make every moment count.
+        </p>
+
+        <div class="buttons">
+            <a href="#collections" class="btn btn-primary">
+                SHOP COLLECTION
+            </a>
+
+            <a href="#store" class="btn btn-secondary">
+                VISIT OUR STORE
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- COLLECTIONS -->
+
+<section id="collections">
+
+    <div class="section-title">
+        <small>EXPLORE</small>
+        <h2>Our Collections</h2>
+    </div>
+
+    <div class="collections">
+
+        <div class="collection">
+            <img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=900&q=80" alt="Men's Fashion collection">
+            <div class="collection-info">
+                <h3>Men's Fashion</h3>
+                <p>Modern styles for every occasion.</p>
+            </div>
+        </div>
+
+        <div class="collection">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Women's Fashion collection">
+            <div class="collection-info">
+                <h3>Women's Fashion</h3>
+                <p>Elegant looks with modern style.</p>
+            </div>
+        </div>
+
+        <div class="collection">
+            <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=900&q=80" alt="Casual wear collection">
+            <div class="collection-info">
+                <h3>Casual Wear</h3>
+                <p>Comfort meets everyday fashion.</p>
+            </div>
+        </div>
+
+        <div class="collection">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Occasion wear collection">
+            <div class="collection-info">
+                <h3>Occasion Wear</h3>
+                <p>Make every special moment memorable.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+    <div class="section-title">
+        <small>NEW SEASON</small>
+        <h2>Featured Styles</h2>
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=900&q=80" alt="Classic Black Shirt">
+            <div class="product-info">
+                <h3>Classic Black Shirt</h3>
+                <p>Premium everyday style.</p>
+                <div class="price">₹999</div>
+                <button onclick="addToCart('Classic Black Shirt',999)">
+                    ADD TO CART
+                </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&w=900&q=80" alt="Premium Formal Look">
+            <div class="product-info">
+                <h3>Premium Formal Look</h3>
+                <p>Sharp and sophisticated.</p>
+                <div class="price">₹1,499</div>
+                <button onclick="addToCart('Premium Formal Look',1499)">
+                    ADD TO CART
+                </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80" alt="Urban Casual">
+            <div class="product-info">
+                <h3>Urban Casual</h3>
+                <p>Clean modern street style.</p>
+                <div class="price">₹1,199</div>
+                <button onclick="addToCart('Urban Casual',1199)">
+                    ADD TO CART
+                </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80" alt="Premium White Shirt">
+            <div class="product-info">
+                <h3>Premium White Shirt</h3>
+                <p>Minimal. Clean. Timeless.</p>
+                <div class="price">₹1,099</div>
+                <button onclick="addToCart('Premium White Shirt',1099)">
+                    ADD TO CART
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1200&q=90" alt="About Sheikh Bhai Clothing">
+
+    <div>
+
+        <small style="color:#d4af37;letter-spacing:4px;">
+            ABOUT US
+        </small>
+
+        <h2>
+            Fashion Made<br>
+            <span>Different.</span>
+        </h2>
+
+        <p>
+            Sheikh Bhai Clothing brings together modern fashion,
+            quality clothing and timeless style for customers looking
+            for something special.
+        </p>
+
+        <p>
+            From everyday essentials to special occasions, our goal is
+            simple — provide stylish clothing, great value and an
+            experience customers remember.
+        </p>
+
+        <a href="#store" class="btn btn-primary">
+            VISIT US
+        </a>
+
+    </div>
+
+</section>
+
+<!-- WHY US -->
+
+<section>
+
+    <div class="section-title">
+        <small>THE DIFFERENCE</small>
+        <h2>Why Choose Us?</h2>
+    </div>
+
+    <div class="features">
+
+        <div class="feature">
+            <div class="feature-icon">✦</div>
+            <h3>Premium Quality</h3>
+            <p>
+                Carefully selected clothing with a focus on quality.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">◈</div>
+            <h3>Latest Styles</h3>
+            <p>
+                Modern fashion designed for today's trends.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">₹</div>
+            <h3>Great Value</h3>
+            <p>
+                Stylish clothing at prices that offer excellent value.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">♥</div>
+            <h3>Customer First</h3>
+            <p>
+                Your satisfaction is always at the heart of our service.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STORE -->
+
+<section class="store" id="store">
+
+    <small style="color:#d4af37;letter-spacing:4px;">
+        FIND US
+    </small>
+
+    <h2>Visit Our Store</h2>
+
+    <div class="address">
+
+        <strong>Sheikh Bhai Clothing</strong><br><br>
+
+        WZ 1/1B, Punjabi Market Road, Part-1,<br>
+        Mukerjee Park, Chaukhandi,<br>
+        Tilak Nagar, New Delhi, Delhi – 110018
+
+    </div>
+
+    <div class="buttons" style="justify-content:center;">
+
+        <a
+        class="btn btn-primary"
+        href="https://www.google.com/maps/search/?api=1&query=WZ+1%2F1B+Punjabi+Market+Road+Mukerjee+Park+Chaukhandi+Tilak+Nagar+New+Delhi+110018"
+        target="_blank">
+        OPEN MAP
+        </a>
+
+        <a
+        class="btn btn-secondary"
+        href="tel:+918802015804">
+        CALL STORE
+        </a>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <small>GET IN TOUCH</small>
+
+        <h2>Contact Us</h2>
+
+    </div>
+
+    <div class="contact-container">
+
+        <form>
+
+            <input
+            type="text"
+            placeholder="Your Name"
+            required>
+
+            <input
+            type="tel"
+            placeholder="Phone Number"
+            required>
+
+            <input
+            type="email"
+            placeholder="Email Address">
+
+            <textarea
+            placeholder="Write your message..."
+            required></textarea>
+
+            <button type="submit">
+                SEND MESSAGE
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div>
+
+            <h3>SHEIKH <span style="color:#d4af37;">BHAI</span></h3>
+
+            <p>
+                Style That Speaks.<br>
+                Quality That Lasts.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <p>
+                <a href="#home">Home</a><br>
+                <a href="#collections">Collections</a><br>
+                <a href="#products">New Arrivals</a><br>
+                <a href="#about">About</a>
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>
+                <a href="tel:+918802015804">
+                    +91 88020 15804
+                </a><br>
+
+                <a href="https://wa.me/918802015804" target="_blank">
+                    WhatsApp
+                </a><br>
+
+                New Delhi, India
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 Sheikh Bhai Clothing.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<!-- CART -->
+
+<div id="cart">
+
+    <div class="close-cart" onclick="closeCart()">×</div>
+
+    <h2>Your Cart</h2>
+
+    <div id="cartItems"></div>
+
+    <div class="total">
+        Total: ₹<span id="total">0</span>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
